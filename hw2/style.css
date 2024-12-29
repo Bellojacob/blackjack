@@ -1,0 +1,117 @@
+body{
+    
+    
+    height: 90vh;
+    background-color: green;
+    
+}
+
+.cards{
+    border: 1px solid black;
+    margin: 0 5px;
+    height: 25vh;
+    width: 18vh;
+    padding: 15px;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.cpuSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.userSection{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.additional{
+    display: none;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.cpuTotal{
+    text-align: center;
+}
+
+.userTotal{
+    text-align: center;
+}
+
+.result{
+    text-align: center;
+    margin-top: 0px;
+    color: red;
+}
+
+#reset{
+    display: none;
+}
+
+.btn{
+    font-size: 20px;
+    font-weight: 800;
+    padding: 1%;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+.userTotal{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cpuTotal{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.result{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.enterName{
+    text-align: center;
+    
+    
+}
+
+#enter{
+    font-size: 30px;
+}
+
+#userName{
+    font-size: 20px;
+    width: 100px;
+}
+
+#addName{
+    font-size: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: white;
+    cursor: pointer;
+}
